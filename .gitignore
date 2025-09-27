@@ -44,3 +44,6 @@ coverage/
 
 # --- Misc ---
 *.lock
+
+# --- My Project ---
+PROGRESS.md
