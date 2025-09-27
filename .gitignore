@@ -1,0 +1,46 @@
+# --- OS/Editor ---
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# --- Node.js / Next.js ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/.vercel/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Java / Spring Boot ---
+backend/target/
+backend/.gradle/
+backend/build/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Environment / Config ---
+.env
+*.local
+*.secret
+
+# --- Docker / Devcontainer ---
+.devcontainer/.env
+docker-compose.override.yml
+**/tmp/
+**/.cache/
+
+# --- Test / Coverage ---
+coverage/
+*.lcov
+
+# --- Misc ---
+*.lock

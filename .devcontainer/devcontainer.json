@@ -1,0 +1,27 @@
+{
+  "name": "blog-app-dev",
+  "dockerFile": "DockerFile",
+  // Build context directory
+  "context": "..",
+  "runArgs": ["--network=host"],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "java.configuration.updateBuildConfiguration": "automatic",
+        "files.watcherExclude": {
+          "**/target/**": true,
+          "**/node_modules/**": true
+        }
+      },
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  // Run npm install in frontend dir
+  // "postCreateCommand": "npm install --prefix frontend",
+  "remoteUser": "node"
+}
