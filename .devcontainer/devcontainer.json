@@ -17,7 +17,8 @@
         "vscjava.vscode-java-pack",
         "ms-azuretools.vscode-docker",
         "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "Postman.postman-for-vscode"
       ]
     }
   },
